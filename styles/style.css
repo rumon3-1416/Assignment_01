@@ -32,6 +32,13 @@ main {
   line-height: 36px;
   margin-bottom: 16px;
 }
+.common-heading4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
 .common-desc {
   color: #0d1321;
   font-size: 16px;
@@ -47,6 +54,15 @@ main {
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
+  cursor: pointer;
+}
+.learn-more {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  border-bottom: 2px solid black;
+  display: inline;
 }
 
 /* Banner */
@@ -155,4 +171,34 @@ main {
 }
 .yt-div iframe {
   border-radius: 16px;
+}
+
+/* Current Target */
+.current-target {
+  text-align: center;
+  margin-bottom: 111px;
+}
+.ct-cards {
+  display: flex;
+  gap: 24px;
+}
+.ct-card {
+  padding: 40px;
+  text-align: left;
+  border-radius: 16px;
+}
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
+}
+.ct-card img {
+  height: 56px;
+}
+.ct-card p {
+  margin-bottom: 24px;
 }
