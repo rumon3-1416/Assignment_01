@@ -106,7 +106,7 @@ nav div button {
 
 /* Banner */
 .banner {
-  background-image: url('/images/hero-bg1.png');
+  background-image: url('../assets/Hero-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
