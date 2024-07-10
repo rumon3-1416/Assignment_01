@@ -47,6 +47,11 @@ main {
   line-height: 26px;
   margin-bottom: 48px;
 }
+.common-sub-desc {
+  width: 852px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .common-btn1 {
   padding: 12px 20px;
   border: 1px solid rgb(13, 19, 33);
@@ -202,11 +207,6 @@ nav div button {
   text-align: center;
   margin-bottom: 151px;
 }
-.my-ins p {
-  width: 852px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .yt-div {
   padding: 32px;
   border: 1px solid rgba(13, 19, 33, 0.2);
@@ -244,6 +244,31 @@ nav div button {
 }
 .ct-card p {
   margin-bottom: 24px;
+}
+
+/* Next Target */
+.next-target {
+  text-align: center;
+  margin-bottom: 49px;
+}
+.next-target article {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.nt-content {
+  width: 85%;
+  text-align: left;
+}
+.nt-img {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Support Section */
