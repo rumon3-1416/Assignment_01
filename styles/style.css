@@ -6,6 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  border: none;
 }
 
 body {
@@ -63,6 +64,40 @@ main {
   line-height: 19px;
   border-bottom: 2px solid black;
   display: inline;
+  cursor: pointer;
+}
+.learn-more:hover {
+  color: rgba(13, 19, 33, 0.8);
+  border-bottom: 2px solid rgba(13, 19, 33, 0.8);
+}
+
+/* Nav */
+nav {
+  width: 100%;
+}
+nav div {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div h2 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+}
+nav div button {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* Banner */
@@ -76,6 +111,9 @@ main {
   height: 652px;
   margin: 0 auto 74px auto;
   padding-top: 26px;
+
+  border-top: 2px dashed rgba(13, 19, 33, 0.3);
+  border-bottom: 2px dashed rgba(13, 19, 33, 0.3);
 }
 .banner-content {
   width: 998px;
@@ -103,6 +141,11 @@ main {
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+.banner-btn:hover {
+  transform: scale(1.1);
 }
 
 /* Why DW Section */
@@ -201,4 +244,95 @@ main {
 }
 .ct-card p {
   margin-bottom: 24px;
+}
+
+/* Support Section */
+.support-sec {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('../assets/handshake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 64px;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+.support-sec h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.support-sec p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.support-sec form {
+  width: 684px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.support-sec form input {
+  width: 548px;
+  padding: 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  outline: none;
+}
+.support-sec form button {
+  width: 120px;
+  padding: 17px 20px;
+  color: rgb(13, 19, 33);
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.support-sec form button:hover {
+  color: black;
+  background-color: rgb(224, 224, 224);
+}
+
+/* Footer */
+footer {
+  background: rgba(13, 19, 33, 0.03);
+  width: 100%;
+  border-radius: 16px;
+}
+.foot-div {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot-div p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.foot-div ul {
+  display: flex;
+}
+.foot-div ul li a img {
+  width: 36px;
+  margin-left: 24px;
 }
